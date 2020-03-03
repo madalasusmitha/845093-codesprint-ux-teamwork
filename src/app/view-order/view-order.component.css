@@ -1,0 +1,70 @@
+body {
+    font-family: "Lato", sans-serif;
+    background:#f9f9f9;
+    padding-top:20px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 190px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:black;
+    overflow-x: hidden;
+    padding-top: 100px;
+    margin-bottom:-12%;
+  }
+  .bg-image{
+    background-image: url("src\assets\images\bgimg1.jpg");
+    background-color: #cccccc;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: wheat;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  img {
+    opacity: 0.75;
+  }
+  
+  img:hover {
+    opacity: 2.0;
+  }
+  .table{
+    margin-top:-20%;
+    margin-left: 150px;
+    background-color: white;
+  }

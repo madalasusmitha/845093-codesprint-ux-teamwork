@@ -1,0 +1,21 @@
+My associate id:
+845163
+Other team members:
+844866,844993,845093
+Team lead:
+845163
+My Role in team:
+1. To develop view-order component
+My development files:
+1. view-order.component.html
+2.view-order.component.css
+3.view-order.component.ts
+4.Integration
+
+I was strong in:
+1.Reactive Forms
+2.Services
+3.Json-server
+
+Feedback:
+This codesprint helped me in getting complete awareness on angular and json-server.

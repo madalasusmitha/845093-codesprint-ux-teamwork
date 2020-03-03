@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1
+    },
+    {
+      "email": "dffg@gmail.com",
+      "comment": "dfdf",
+      "id": 2
+    }
+  ],
+  "place-order": [
+    {
+      "id": 1
+    },
+    {
+      "amntinr": "156",
+      "amntpaisa": "52",
+      "recipientfname": "srija",
+      "recipientlname": "Arigela",
+      "streetaddress": "santhinagar 14th line",
+      "city": "eluru",
+      "state": "",
+      "pincode": "534007",
+      "country": "",
+      "buyerfname": "srija",
+      "buyerlname": "Arigela",
+      "phonenumber": "+91",
+      "emailid": "chandini22051998@gmail.com",
+      "id": 5
+    },
+    {
+      "amntinr": "7893",
+      "amntpaisa": "234",
+      "recipientfname": "Suma",
+      "recipientlname": "Bade",
+      "streetaddress": "santhinagar 14th line",
+      "city": "chennai",
+      "state": "",
+      "pincode": "534007",
+      "country": "",
+      "buyerfname": "Suma",
+      "buyerlname": "Bade",
+      "phonenumber": "1",
+      "emailid": "sumabade009@gmail.com",
+      "id": 6
+    },
+    {
+      "amntinr": "143",
+      "amntpaisa": "00",
+      "recipientfname": "chandu",
+      "recipientlname": "K",
+      "streetaddress": "perungudi",
+      "city": "Chennai",
+      "state": "",
+      "pincode": "537001",
+      "country": "India",
+      "buyerfname": "chandu",
+      "buyerlname": "K",
+      "phonenumber": "7",
+      "emailid": "chandini22051998@gmail.com",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

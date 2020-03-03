@@ -1,0 +1,33 @@
+<div class="bg-image">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
+    <a [routerLink]="'/home'" routerLinkActive="router-link-active" class="name pull-xs-right">
+    <img class="rounded-circle" src="../assets/images/logo.png" width="50" height="50"></a>
+    <span class="name pull-text pull-xs-right" style="font-size:40px;color: white;">&nbsp;&nbsp;&nbsp;GIFT-CARD</span>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a [routerLink]="'home-content'" routerLinkActive="router-link-active" class="nav-item nav-link active" style="font-size:25px;color: white;">Home</a>
+            <a [routerLink]="'place-order'" routerLinkActive="router-link-active" class="nav-item nav-link" style="font-size:25px;color: white;">PlaceOrder</a>
+            <a [routerLink]="'view-order'" routerLinkActive="router-link-active"  class="nav-item nav-link" style="font-size:25px;color: white;">ViewOrder</a>
+            <a [routerLink]="'contact-us'" routerLinkActive="router-link-active"  class="nav-item nav-link" tabindex="-1"style="font-size:25px;color: white;">ContactUs</a>
+        </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+  <div class="container-fluid">
+    <div class="sidenav">
+      <a [routerLink]="'home-content'" routerLinkActive="router-link-active"><i class="glyphicon glyphicon-home"></i> Home</a>
+      <a [routerLink]="'place-order'" routerLinkActive="router-link-active" ><i class="glyphicon glyphicon-shopping-cart"></i> PlaceOrder</a>
+      <a [routerLink]="'view-order'" routerLinkActive="router-link-active" ><i class="fa fa-shopping-bag"></i> ViewOrder</a>
+      <a [routerLink]="'contact-us'" routerLinkActive="router-link-active" ><i class="glyphicon glyphicon-earphone"></i> ContactUS</a>
+    </div>
+    </div>
+  <footer class="footer footer-expand-md navbar-dark bg-dark static fixed-bottom">
+  <div class="footer-copyright text-center py-3" style="font-size:20px;color: white;">© 2020 Copyright:
+  <a [routerLink]="'/home'" routerLinkActive="router-link-active" > www.EMART.com</a>
+  </div>
+  </footer>
+ 
+</div>

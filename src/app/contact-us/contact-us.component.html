@@ -1,0 +1,66 @@
+
+  <div class="hero-text">
+  <div class="col-sm-8 text-left" style="font-size:18px;color:black;">
+    <div class="bg">
+        <div class="container contact">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="contact-info">
+                        <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="Smiley face" >
+                        <h2>CONTACT US </h2>
+                        <h4>We would love to hear from you !</h4>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="contact-form">
+                        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+                            <div class=form group>
+                                <label class="control-label col-sm-2">Firstname:</label>
+                                <input type="text" formControlName="fname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.fname.errors }" />
+                                <div *ngIf="submitted && f.fname.errors" class="invalid-feedback">
+                                    <div *ngIf="f.fname.errors.required">Firstname is required</div>
+                                    <div *ngIf="f.fname.errors.pattern">Enter only Alphabets</div>
+                                </div>
+        
+                            <div class=form group>
+                                <label class="control-label col-sm-2">Lastname:</label>
+                                <input type="text" formControlName="lname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lname.errors }" />
+                                <div *ngIf="submitted && f.lname.errors" class="invalid-feedback">
+                                    <div *ngIf="f.lname.errors.required">LastName is required</div>
+                                    <div *ngIf="f.lname.errors.pattern">Enter Lastname</div>
+                                </div>
+                
+                            </div>
+                            <div class=form group>
+                                <label class="control-label col-sm-2">Email:</label>
+                                <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                                <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                                    <div *ngIf="f.email.errors.required">Email is required</div>
+                                    <div *ngIf="f.email.errors.pattern">Enter Email</div>
+                                </div>
+                
+                            </div>
+    
+                            <div class = form group>
+                                <label class="control-label col-sm-2">Comments:</label>
+                                <textarea type="text" formControlName="comment"  rows="5" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.comment.errors }" ></textarea>
+                                <div *ngIf="submitted && f.comment.errors" class="invalid-feedback">
+                                    <div *ngIf="f.comment.errors.required">Give reason</div>
+                                </div>
+                            </div>
+    <br/>
+    <br/>
+                            <div class=form group>        
+                                <div class="col-sm-offset-2 col-sm-10">
+                                  <button type="submit" class="btn btn-lg btn-default ">Submit</button>
+                                </div>
+                              </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div> 

@@ -1,0 +1,24 @@
+  <router-outlet></router-outlet>
+  <div class="hero-text">
+  <div class="col-sm-8 text-left" style="font-size:18px;color:black;">
+    <div class="container">
+        <table class="table table-bordered">
+            <tr>
+                <th>Buyer Name</th>
+                <th>Shipping Address</th>
+                <th>City</th>
+                <th>Amount</th>
+                <th>Email</th>
+            </tr>
+            <tr *ngFor="let order of list">
+                <td>{{order.buyerfname}}</td>
+                <td>{{order.streetaddress}}</td>
+                <td>{{order.city}}</td>
+                <td>{{order.amntinr}}</td>
+                <td>{{order.emailid}}</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+  </div>
+  
